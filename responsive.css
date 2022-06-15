@@ -1,0 +1,336 @@
+.navbar-light .navbar-toggler-icon {
+	background-image: url(./image/hamburger.png);
+}
+img{
+	max-width: 100%;
+}
+@media (max-width: 1420px) {
+	.navbar-nav .nav-item a {
+		font-size: 14px;
+		line-height: 20px;
+		margin-right: 8px;
+		margin-left: 8px;
+	}
+	.info-slider h1 {
+		font-size: 55px;
+		line-height: 70px;
+	}
+	.fly-image .img-3 {
+		position: absolute;
+		right: 300px;
+		bottom: 70px;
+	}
+	.fly-image .img-1 {
+		top: 570px;
+		left: 135px;
+	}
+	.fly-image .img-2 {
+		bottom: 35px;
+		left: 120px;
+	}
+	.Bnefits-content-left .text {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.Bnefits-content-left .text-left-1 {
+		margin-top: 15px;
+	}
+	.Bnefits-content-right .text-right-2 {
+		margin-top: 80px;
+	}
+	.Roadmap-left-item-left {
+		font-size: 40px;
+	}
+	.Roadmap-left-item-right {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.Roadmap-left ul::before {
+		left: 178px;
+	}
+	.Roadmap-left ul li::before {
+		left: 155px;
+	}
+	.team-item h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.navbar-nav .nav-item a {
+		line-height: 22px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	.social ul {
+		padding: 0;
+	}
+	.header-btn {
+		font-size: 14px;
+		line-height: 14px;
+		padding: 8px 20px;
+		margin-left: 10px !important;
+	}
+	.navbar-nav.ml-auto.mb-2.mb-lg-0 {
+		margin-left: -40px;
+	}
+	.logo {
+		width: 65%;
+	}
+	.social {
+		margin-left: 10px;
+	}
+	.social ul {
+		margin-bottom: 0;
+		margin-top: 0px;
+	}
+	.fly-image .img-3 {
+		right: 240px;
+	}
+	.fly-image .img-2 {
+		bottom: 25px;
+		left: 65px;
+	}
+	.Bnefits-content-left .text {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.Bnefits-content-right .text {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.Bnefits-content-right .text-right-1 {
+		margin-top: 50px;
+	}
+	.Bnefits-content-left .text-left-2 {
+		margin-top: 65px;
+	}
+	.Bnefits-content-right .text-right-2 {
+		margin-top: 65px;
+	}
+	.Roadmap-left ul::before {
+		left: 148px;
+	}
+	.Roadmap-left ul li::before {
+		left: 120px;
+	}
+	.Roadmap-left-item-left {
+		font-size: 30px;
+		text-align: left;
+	}
+	.Roadmap-right img {
+		margin-top: 170px;
+	}
+	.f-cmn ul li a {
+		font-size: 16px;
+		line-height: 10px;
+	}
+	.footer-logo img {
+		width: 185px;
+		margin-top: 20px;
+	}
+	.footer-copyright h4 {
+		font-size: 16px;
+		line-height: 14px;
+		line-height: 14px;
+	}
+}
+@media (max-width: 992px) {
+	.info-slider h1 {
+		font-size: 45px;
+		line-height: 60px;
+	}
+	.info-slider p {
+		font-size: 20px;
+		line-height: 30px;
+		width: 70%;
+	}
+	.fly-image .img-1 {
+		top: 570px;
+	}
+	.fly-image .img-3 {
+		right: 190px;
+		bottom: 60px;
+		width: 140px;
+	}
+	.fly-image .img-2 {
+		bottom: 187px;
+		left: 418px;
+		width: 118px;
+	}
+	.Bnefits-content-left .text {
+		font-size: 14px;
+		line-height: 14px;
+	}
+	.Bnefits-content-right .text-right-1 {
+		margin-top: 20px;
+	}
+	.Bnefits-content-right .text {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.Bnefits-content-left .text-left-2 {
+		margin-top: 48px;
+	}
+	.Bnefits-content-right .text-right-2 {
+		margin-top: 48px;
+	}
+	.Bnefits-content-left .text-left-1 {
+		margin-top: 2px;
+	}
+	.Roadmap-left ul::before {
+		left: -15px;
+	}
+	.Roadmap-left ul li::before {
+		left: -38px;
+	}
+	.Roadmap-right img {
+		margin-top: 30px;
+	}
+	.team-item {
+		padding: 10px 10px;
+		width: 12.5%;
+	}
+	.team-item h2 {
+		font-size: 25px;
+		line-height: 20px;
+	}
+	.team-social ul li {
+		width: 28px;
+	}
+	.footer-logo {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.f-cmn {
+		text-align: center;
+	}
+	.footer-social {
+		text-align: center;
+	}
+}
+@media (max-width: 768px) {
+	.fly-image .img-1 {
+		display: none;
+	}
+	.info-slider h1 {
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.info-slider p {
+		font-size: 18px;
+		line-height: 20px;
+		width: 90%;
+		margin-top: 15px;
+	}
+	.fly-image .img-2 {
+		bottom: 316px;
+		left: 334px;
+		width: 100px;
+	}
+	.fly-image .img-3 {
+		right: 5px;
+		bottom: 105px;
+	}
+	.Bnefits-section-heading h2 {
+		font-size: 45px;
+		line-height: 40px;
+		text-align: center;
+	}
+	.Bnefits-content-img {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.Bnefits-content-left .text {
+		font-size: 18px;
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.Bnefits-content-left .text-left-1 {
+		margin-top: 0px;
+	}
+	.Bnefits-content-right .text-right-1 {
+		margin-top: 0px !important;
+	}
+	.Roadmap-right img {
+		margin-top: 30px;
+		display: none;
+	}
+
+	.Bnefits-content-right .text {
+		font-size: 18px;
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.Bnefits-content-left .text-left-2 {
+		margin-top: 0;
+	}
+	.team-item {
+		/* margin: auto; */
+		text-align: center;
+		padding: 27px 20px;
+		box-sizing: border-box;
+		color: #fff;
+		width: 100%;
+		/* margin: auto; */
+	}
+	.navbar-light .navbar-toggler {
+		color: #57F287;
+		border-color: transparent;
+	}
+	
+}
+@media (max-width: 576px) {
+	.info-slider h1 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.info-slider p {
+		font-size: 18px;
+		line-height: 22px;
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.fly-image .img-2 {
+		bottom: 240px;
+		left: 135px;
+		width: 100px;
+	}
+	.Roadmap-left ul::before {
+		left: 5px;
+	}
+	.Roadmap-left ul li::before {
+		left: -29px;
+	}
+	.Bnefits-section-heading h2 {
+		font-size: 30px;
+		line-height: 35px;
+		text-align: center;
+	}
+	.footer-logo img {
+		width: 150px;
+		margin-top: 0px;
+	}
+	.f-cmn ul {
+		padding: 0;
+	}
+	.footer-copyright h4 {
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.banner-section {
+		height: 760px;
+	}
+	.navbar-nav.ml-auto.mb-2.mb-lg-0 {
+		margin-left: 0px;
+	}
+	.navbar-light .navbar-toggler {
+		color: #57F287;
+		border-color: transparent;
+	}
+}
